@@ -1,0 +1,85 @@
+<html>
+<title> Basic Banking System</title>
+
+<head>
+    <meta name="viewport" content="width=device-width" , initial-scale=1 charset="utf-8">
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/OIP.6bL5ZpqUw3Xkl9_yDO-kUwHaEw?pid=ImgDet&rs=1');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        
+        input[type=text],
+        input[type=password] {
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        
+        input[type=text]:focus,
+        input[type=password]:focus {
+            outline: none;
+        }
+        
+        img {
+            width: 30%;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
+        div {
+            text-align: center;
+        }
+    </style>
+
+    <body>
+        <h1>WELCOME TO THE BANKING SYSTEM</h1>
+        <form action="login.html">
+            <div class="container">
+                <h1>Registeration Form</h1>
+                <h2>Please fill in this form to create an account.</h2>
+                <hr>
+
+                <label for="email"><b>Enter Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
+
+                <label for="psw-repeat"><b>confirm  Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
+                <hr>
+                <button type="submit">Submit Button</button>
+
+
+            </div>
+        </form>
+        <center><b>Social Media Credentials</b><br></center>
+        <div class="row " style="padding-left: 120px; ">
+            <div class="col-lg-4 col-sm-12 ">
+                <a href="https://accounts.google.com/ "><img class="img rounded " src="google.png " width="40 " height="40 "></a>
+            </div>
+            <div class="col-lg-4 col-sm-12 ">
+                <a href="https://www.facebook.com "><img class="img rounded " src="fb.png " width="40 " height="40 "></a>
+            </div>
+            <div class="col-lg-4 col-sm-12 ">
+                <a href="https://www.instagram.com/ "><img class="img rounded " src="insta.jpeg " width="40 " height="40 "></a>
+            </div>
+        </div>
+        </div>
+        <div class="container signin">
+            <p>Already have an account? <a href="file:///C:/Users/tulas/Desktop/link.html">login</a>.</p>
+        </div>
+
+
+    </body>
+
+</html>
